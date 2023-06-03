@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Developer</title>   
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles2.css">
+    <script src="https://kit.fontawesome.com/23fa25c632.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+</head>
+
+
+<body>
+    
+    <center>
+        <h1 class="titulo1">Web Developer</h1>    
+    </center>
+    
+
+    <center>
+    <div class="formulario">
+    <p style="text-align: center;">Formulario de afiliación</p>
+      
+    
+        <form class="box" method="get" action="index2.html" name="formulario">
+
+            
+            <div >
+                <i class="fa-solid fa-user-astronaut icon"></i> 
+                <input class="casillas" type="text" placeholder="Nombre completo" id="user">   
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <input class="casillas" type="email" placeholder="Email" id="email">
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <input class="casillas" type="tel" placeholder="Número telefónico" id="tel"><br>
+            </div>
+            
+             <div class="field has-addons">
+                    <div class="control is-expanded">
+                      <input class="input" type="text" id="gustos" />
+                    </div>
+                    <div class="control">
+                      <a
+                        onclick="guardar()"
+                        class="button is-success is-outlined"
+                      >
+                        Gustos
+                      </a>
+                    </div>
+            </div>
+
+            <div class="box">
+                <div class="columns">
+                    <div
+                        class="column is-2"
+                        style="background-color: #27a844; border-radius: 7px;"
+                    ></div>
+                    <div class="column">
+                        <table
+                          class="table is-bordered is-fullwidth"
+                          id="tabla_gustos"
+                        >
+                        <thead>
+                            <th>Gustos</th>
+                            <th>%</th>
+                            <th>edit</th>
+                        </thead>
+                        <tbody></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+                <div style="text-align: center;" id="contenedorbotones"></div><br>
+
+              <a class="link1" href="https://sites.google.com/view/dweb1-uis" target="_">Ir a Site de P Web</a>  
+            </div><br> 
+        </form>         
+    </div>    
+
+</body>
+</html>
+

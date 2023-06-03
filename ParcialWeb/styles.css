@@ -1,0 +1,46 @@
+body {
+	background: #DDDDDD;
+}
+
+.titulo1 {
+	padding-top: 2%;
+}
+
+
+.formulario {
+	border: 1px solid #DDDDDD;
+	border-radius: 10px;
+	background: #fff;
+	width: 40%;						
+	height: 100%;					
+	margin: 1.8%;					
+	padding: 2%;					
+	position: relative;
+}
+
+.casillas {
+
+	border: 1px solid #DDDDDD;		
+	border-radius: 2px;				
+	padding: 0.7px;					
+	padding-left: 7%;				
+	width: 100%;					
+	display: flex;					
+	position: relative;
+}
+.casillas::placeholder{					
+	color: grey;
+}
+.casillas:hover{						
+	background: #A5A5A5;
+}
+.casillas:focus{
+	background: #F1F1F1;
+	padding: 4px;
+}
+i {                                  	
+	position: relative; 
+	left: 44%;
+	top: 23px;
+	z-index: 50;
+}
